@@ -16,10 +16,17 @@
         android:id="@+id/button1"
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="65dp"
-        android:layout_toLeftOf="@+id/textView1"
         android:onClick="onClickListener"
         android:text="Button" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="BIG Button" />
 
 </RelativeLayout>

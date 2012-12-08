@@ -1,5 +1,6 @@
 package com.example.push;
 
+import android.R;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
@@ -22,6 +23,12 @@ public class MainActivity extends Activity {
     }
     
     public void onClickListener (View view) {
-    	Toast.makeText(this, "You pushed a button", Toast.LENGTH_SHORT).show();
+    	if (view.getId()==R.id.button2){
+    		   Toast.makeText(this, "You pushed a tiny button", Toast.LENGTH_SHORT).show();
+    	}
+    		   if (view.getId()==R.id.button1){
+      	Toast.makeText(this, "You pushed a big button", Toast.LENGTH_SHORT).show();
+      	
     }
+}
 }
