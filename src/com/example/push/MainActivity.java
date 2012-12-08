@@ -22,10 +22,10 @@ public class MainActivity extends Activity {
     }
     
     public void onClickListener (View view) {
-    	if (view.getId()==R.id.button2){
+    	if (view.getId()==R.id.button1){
     		   Toast.makeText(this, "You pushed a tiny button", Toast.LENGTH_SHORT).show();
     	}
-    		   if (view.getId()==R.id.button1){
+    		   if (view.getId()==R.id.button2){
       	Toast.makeText(this, "You pushed a big button", Toast.LENGTH_SHORT).show();
       	
     }

@@ -27,6 +27,7 @@
         android:layout_height="300dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
+        android:onClick="onClickListener"
         android:text="BIG Button" />
 
 </RelativeLayout>
